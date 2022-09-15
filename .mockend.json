@@ -3,16 +3,22 @@
     "title": {
       "string": {}
     },
-    "comments": {
-      "hasMany": "Comment"
+    // "comments": {
+    //   "hasMany": "Comment"
+    // }
+    "likes": {
+      "int": {
+        "min": 0,
+        "max": 1000000
+      }
     }
   },
-  "Comment": {
-    "body": {
-      "string": {}
-    },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
+  // "Comment": {
+  //   "body": {
+  //     "string": {}
+  //   },
+  //   "post": {
+  //     "belongsTo": "Post"
+  //   }
+  // }
 }
