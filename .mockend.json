@@ -36,6 +36,14 @@
         200,
         300
       ]
+    },
+    "userComments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "authorPost": {
+      "belongsTo": "Post"
     }
   }
 }
