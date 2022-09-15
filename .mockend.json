@@ -23,6 +23,12 @@
     },
     "tag": {
       "loremWord": {}
+    },
+    "person": {
+      "string": [
+        "Thor",
+        "Loki"
+      ]
     }
   }
 }
