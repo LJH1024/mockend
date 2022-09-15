@@ -53,25 +53,6 @@
           ]
         }
       }
-    },
-    "userComment": [
-      "userComments": {
-        "hasMany": {
-          "code": {
-            "int": [
-              100,
-              200,
-              300
-            ]
-          },
-          "person": {
-            "string": [
-              "Thor",
-              "Loki"
-            ]
-          }
-        }
-      },
-    ]
+    }
   }
 }
